@@ -5,7 +5,8 @@ return array(
     'URL_MODEL'   =>  0,       // URL访问模式,可选参数0、1、2、3,代表以下四种模式：
 	
     'URL_CASE_INSENSITIVE' =>true, //表示URL访问不区分大小写
-   
+	'URL_ROUTER_ON'   => true, //开启路由
+
 	//权限验证设置
 	'AUTH_CONFIG'=>array(
         'AUTH_ON' => true, 
