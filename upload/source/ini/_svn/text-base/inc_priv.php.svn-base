@@ -1,0 +1,128 @@
+<?PHP
+if (!defined('IN_GSW'))
+{
+    die('Hacking attempt');
+}
+
+//频道管理权限
+$purview['01_list_channels']    = array('category_manage', 'category_drop');
+
+//系统设置权限
+$purview['01_notice_page']      = 'page_manage';
+$purview['02_static_page']      = 'page_manage';
+$purview['03_sys_config']       = 'sys_config';
+$purview['04_goods_pic']        = 'goods_pic';
+$purview['05_application']      = 'application';
+$purview['06_flow_stats']       = 'flow_stats';
+$purview['07_create_index']     = 'create_index';
+
+//交易中心权限
+$purview['01_swap_list']        = array('swap_manage', 'swap_drop', 'swap_check');
+$purview['02_shop_level']       = 'shop_level';
+$purview['03_shop_manage']      = 'shop_manage';
+$purview['04_swap_scitk']       = 'swap_scitk_manage';
+$purview['05_swap_top']         = 'swap_top_manage';
+//$purview['06_swap_area']        = 'swap_area';
+$purview['07_swap_park']        = 'swap_park';
+$purview['06_swap_stype']        = 'swap_stype';
+//报价中心权限
+$purview['01_quotation_type']   = 'type_manage';
+$purview['02_quotation_area']   = 'area_manage';
+$purview['03_quotation_data']   = array('data_manage', 'data_drop');
+$purview['04_quotation_origin_cat'] = 'origin_cat';
+$purview['05_quotation_origin'] = 'origin_manage';
+$purview['06_am_quotation_list']= array('quotation_manage', 'quotation_edit');
+$purview['07_pm_quotation_list']= array('quotation_manage', 'quotation_edit');
+$purview['08_quotation_cat']    = 'quotation_cat';
+$purview['09_quotation_futures']= 'quotation_futures';
+$purview['10_quotation_inter']  = 'quotation_inter';
+$purview['11_quotation_stock']  = 'quotation_stock';
+$purview['12_quotation_metal']  = 'quotation_metal';
+$purview['13_quotation_exchange']  = 'quotation_exchange';
+$purview['14_quotation_from']  = 'quotation_from';
+
+//新闻中心权限
+$purview['01_list_news']        = array('news_manage', 'news_drop');
+$purview['02_list_experts']     = array('experts_manage', 'experts_drop');
+$purview['03_experts_view']     = array('experts_view_manage', 'experts_view_drop');
+
+//资讯中心权限
+$purview['02_dope_category']    = array('dope_cat_manage', 'dope_cat_drop');
+$purview['01_list_dope']        = array('dope_manage', 'dope_drop');
+
+//媒体中心权限
+$purview['01_media_category']   = array('media_cat_manage', 'media_cat_drop');
+$purview['02_list_media']       = array('media_manage', 'media_drop');
+$purview['03_e_zine']           = 'e_zine';
+$purview['04_contribute']           = 'contribute';
+
+
+//商品研究所
+$purview['01_research_cat']   = array('research_cat_manage', 'research_cat_drop');
+$purview['02_research_list']  = array('research_manage', 'research_drop');
+
+//知识库
+$purview['01_knowledge_cat']   = 'knowledge_cat_manage';
+$purview['02_knowledge_list']  = 'knowledge_manage';
+
+//快问
+$purview['01_qa_list']   = 'qa_manage';
+
+//软件中心权限
+$purview['01_soft_manage']      = array('soft_manage', 'soft_drop');
+$purview['02_daily_fax']        = array('daily_fax', 'fax_list');
+$purview['03_fax_type']         = 'fax_type';
+
+//广告管理权限
+$purview['01_ad_position']      = 'ad_manage';
+$purview['02_ad_list']          = 'ad_manage';
+$purview['03_list_flash']       = 'flash_manage';
+
+//链接管理权限
+$purview['01_useful_links']      = 'useful_links';
+$purview['02_firend_links']      = 'firend_links';
+
+//链接管理权限
+$purview['01_ad_position']      = 'ad_manage';
+$purview['02_ad_list']          = 'ad_manage';
+
+//会员管理权限
+$purview['01_member_list']      = array('member_list', 'member_manages','member_drop','member_priv','member_pass');
+$purview['02_member_rank_list'] = 'member_rank';
+$purview['03_member_type']      = 'member_type';
+$purview['04_member_order']     = 'member_order';
+$purview['05_member_integral']  = 'member_integral';
+$purview['06_give_integral']    = 'give_integral';
+$purview['07_business_friends']    = 'business_friends';
+
+//客服管理权限
+$purview['01_sms_user']     = 'sms_user';
+$purview['02_magazine_user']  = 'magazine_user';
+$purview['03_information']  = 'information';
+
+
+
+//短信管理权限
+$purview['01_sms_list']         = 'sms_manage';
+$purview['05_sms_class']        = 'sms_class';
+//$purview['02_sms_user']         = 'sms_user';
+$purview['03_sms_futures']      = 'sms_futures';
+$purview['04_sms_comment']      = 'sms_comment';
+
+//邮件群发管理权限
+$purview['01_email_list']       = 'email_list';
+$purview['02_magazine_list']    = 'magazine_list';
+$purview['03_view_sendlist']    = 'view_sendlist';
+
+//权限管理权限
+$purview['01_admin_list']       = array('admin_manage', 'admin_drop', 'admin_pass');
+$purview['02_admin_logs']       = array('logs_manage', 'logs_drop');
+$purview['03_admin_role']       = 'role_manage';
+$purview['04_admin_agency']     = 'agency_manage';
+
+//数据库管理权限
+$purview['01_db_backup']        = 'db_backup';
+$purview['02_db_restore']       = 'db_restore';
+$purview['03_db_optimize']      = 'db_optimize';
+$purview['04_sql_query']        = 'sql_query';
+?>

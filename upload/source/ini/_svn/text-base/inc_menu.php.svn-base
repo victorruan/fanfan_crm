@@ -1,0 +1,121 @@
+<?PHP
+if (!defined('IN_GSW'))
+{
+    die('Hacking attempt');
+}
+/* 频道 */
+$modules['channels_manage']['01_list_channels'] = 'category.php?act=list';
+
+/* 系统设置 */
+$modules['sys_page']['01_notice_page'] = 'notice_page.php?act=list';
+$modules['sys_page']['02_static_page'] = 'static_page.php?act=list';
+$modules['sys_page']['03_sys_config']  = 'sys_config.php';
+$modules['sys_page']['04_goods_pic']   = 'goods_pic.php';
+$modules['sys_page']['05_application']  = 'application.php';
+$modules['sys_page']['06_flow_stats']  = 'flow_stats.php?act=view';
+$modules['sys_page']['07_create_index'] = 'create_index.php';
+
+/* 交易中心 */
+$modules['swap_center']['01_swap_list'] = 'swap.php?act=list';
+$modules['swap_center']['02_shop_level']  = 'shop_level.php';
+$modules['swap_center']['03_shop_manage'] = 'shop_manage.php';
+$modules['swap_center']['04_swap_scitk'] = 'swap_scitk.php?act=list';
+$modules['swap_center']['05_swap_top'] = 'swap_top.php?act=list';
+//$modules['swap_center']['06_swap_area'] = 'swap_areas.php?act=list';
+$modules['swap_center']['07_swap_park'] = 'swap_parks_list.php?act=list';
+$modules['swap_center']['06_swap_stype'] = 'swap_stype_list.php?act=list';
+/* 报价中心 */
+$modules['quotation_center']['01_quotation_type'] = 'quotation_type.php?act=list';
+$modules['quotation_center']['02_quotation_area'] = 'quotation_area.php?act=list';
+$modules['quotation_center']['03_quotation_data'] = 'quotation_data.php?act=list';
+$modules['quotation_center']['04_quotation_origin_cat'] = 'quotation_origin_cat.php?act=list';
+$modules['quotation_center']['05_quotation_origin'] = 'quotation_origin.php?act=list';
+$modules['quotation_center']['06_am_quotation_list'] = 'quotation_manage_am.php?act=list';
+$modules['quotation_center']['07_pm_quotation_list'] = 'quotation_manage.php?act=list';
+$modules['quotation_center']['08_quotation_cat']  = 'quotation_cat.php?act=list';
+$modules['quotation_center']['09_quotation_futures'] = 'quotation_futures.php?act=list';
+$modules['quotation_center']['10_quotation_inter'] = 'quotation_inter.php?act=list';
+$modules['quotation_center']['11_quotation_stock'] = 'quotation_stock.php?act=list';
+$modules['quotation_center']['12_quotation_metal'] = 'quotation_metal.php?act=list';
+$modules['quotation_center']['13_quotation_exchange'] = 'quotation_exchange.php?act=list';
+$modules['quotation_center']['14_quotation_from'] = 'quotation_from.php?act=list';
+
+/* 新闻中心 */
+$modules['news_center']['01_list_news']    = 'news.php?=act=list';
+$modules['news_center']['02_list_experts'] = 'experts.php?=act=list';
+$modules['news_center']['03_experts_view'] = 'experts_view.php?=act=list';
+
+/* 资讯中心 */
+$modules['dope_center']['02_dope_category'] = 'dope_cat.php?=act=list';
+$modules['dope_center']['01_list_dope'] = 'dope.php?=act=list';
+
+/* 媒体中心 */
+$modules['media_center']['01_media_category'] = 'media_cat.php?act=list';
+$modules['media_center']['02_list_media'] = 'media.php?act=list';
+$modules['media_center']['03_e_zine']     = 'e_zine.php';
+$modules['media_center']['04_contribute']     = 'contribute.php';
+
+/* 商品研究所 */
+$modules['research']['01_research_cat'] = 'research_cat.php?act=list';
+$modules['research']['02_research_list'] = 'research.php?act=list';
+
+/* 知识库 */
+$modules['knowledge']['01_knowledge_cat']  = 'knowledge_cat.php?act=list';
+$modules['knowledge']['02_knowledge_list'] = 'knowledge.php?act=list';
+
+/* 快问 */
+$modules['qa']['01_qa_list'] = 'qa.php?act=list';
+
+/* 软件中心 */
+$modules['soft_manage']['01_soft_manage'] = 'soft.php?act=list';
+$modules['soft_manage']['02_daily_fax'] = 'daily_fax.php';
+$modules['soft_manage']['03_fax_type']  = 'daily_fax_type.php';
+
+/* 广告管理 */
+$modules['ads_manage']['01_ad_position'] = 'ad_position.php?act=list';
+$modules['ads_manage']['02_ad_list'] = 'ads.php?act=list';
+$modules['ads_manage']['03_list_flash'] = 'flashplay.php?act=list';
+
+/* 链接管理 */
+$modules['link_manage']['01_useful_links'] = 'useful_links.php?act=list';
+$modules['link_manage']['02_firend_links'] = 'firend_links.php?act=list';
+
+/* 会员管理 */
+$modules['member_manage']['01_member_list'] = 'member.php?act=list';
+$modules['member_manage']['02_member_rank_list'] = 'member_rank.php?act=list';
+$modules['member_manage']['03_member_type'] = 'member_types.php?act=list';
+$modules['member_manage']['04_member_order'] = 'member_order.php?act=list';
+$modules['member_manage']['05_member_integral'] = 'member_integral.php?act=list';
+$modules['member_manage']['06_give_integral']  = 'give_integral.php';
+$modules['member_manage']['07_business_friends']  = 'business_friends.php';
+
+
+/* 客服管理 */
+$modules['service']['01_sms_user'] = 'sms_user.php?act=list';
+$modules['service']['02_magazine_user'] = 'magazine_user.php?act=list';
+$modules['service']['03_information'] = 'information.php?act=list';
+
+/* 短信管理 */
+$modules['sms_manage']['01_sms_list'] = 'sms.php?act=list';
+$modules['sms_manage']['05_sms_class'] = 'sms_class.php?act=list';
+//$modules['sms_manage']['02_sms_user'] = 'sms_user.php?act=list';
+$modules['sms_manage']['03_sms_futures'] = 'sms_futures.php?act=list';
+$modules['sms_manage']['04_sms_comment'] = 'sms_comment.php?act=list';
+
+/* 邮件群发管理 */
+$modules['email_manage']['01_email_list'] = 'email_list.php?act=list';
+$modules['email_manage']['02_magazine_list'] = 'magazine_list.php?act=list';
+$modules['email_manage']['03_view_sendlist'] = 'view_sendlist.php?act=list';
+
+/* 权限管理 */
+$modules['priv_manage']['01_admin_list'] = 'admin_user.php?act=list';
+$modules['priv_manage']['02_admin_logs'] = 'admin_logs.php?act=list';
+$modules['priv_manage']['03_admin_role'] = 'role.php?act=list';
+$modules['priv_manage']['04_admin_agency'] = 'agency.php?act=list';
+
+/* 数据库管理 */
+$modules['db_manage']['01_db_backup'] = 'database.php?act=backup';
+$modules['db_manage']['02_db_restore'] = 'database.php?act=restore';
+$modules['db_manage']['03_db_optimize'] = 'database.php?act=optimize';
+$modules['db_manage']['04_sql_query'] = 'sqlquery.php?act=main';
+?>

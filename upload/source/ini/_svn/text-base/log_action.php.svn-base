@@ -1,0 +1,87 @@
+<?php
+
+/**
+ * 广商网管理中心 管理员操作内容语言文件
+*/
+
+/*------------------------------------------------------ */
+//-- 操作类型
+/*------------------------------------------------------ */
+$_LANG['log_action']['add'] = '添加';
+$_LANG['log_action']['remove'] = '删除';
+$_LANG['log_action']['edit'] = '编辑';
+$_LANG['log_action']['check'] = '审核';
+$_LANG['log_action']['priv'] = '权限';
+$_LANG['log_action']['assign'] = '指派';
+/*------------------------------------------------------ */
+//-- 操作内容
+/*------------------------------------------------------ */
+$_LANG['log_action']['category'] = '频道';
+$_LANG['log_action']['flashplay'] = '轮播图片';
+$_LANG['log_action']['notice_page'] = '公告页面';
+$_LANG['log_action']['static_page'] = '单个页面';
+$_LANG['log_action']['sys_config']  = '系统设置';
+$_LANG['log_action']['shop_level']  = '商铺等级';
+$_LANG['log_action']['shop_manage'] = '商铺管理';
+$_LANG['log_action']['e_zine']      = '电子杂志';
+$_LANG['log_action']['daily_fax']   = '每日传真';
+$_LANG['log_action']['fax_type']    = '传真类型';
+$_LANG['log_action']['goods_pic']   = '商品图库';
+$_LANG['log_action']['application']   = '招聘英才';
+$_LANG['log_action']['give_integral']   = '赠送积分';
+$_LANG['log_action']['admin_user'] = '管理员';
+$_LANG['log_action']['adminlog'] = '日志';
+$_LANG['log_action']['role'] = '角色';
+$_LANG['log_action']['agency'] = '办事处';
+$_LANG['log_action']['admin'] = '业务员';
+$_LANG['log_action']['users'] = '会员账号';
+$_LANG['log_action']['ads_position'] = '广告位置';
+$_LANG['log_action']['ads'] = '广告';
+$_LANG['log_action']['useful_links'] = '常用链接';
+$_LANG['log_action']['firend_links'] = '友情链接';
+$_LANG['log_action']['news'] = '新闻';
+$_LANG['log_action']['dope'] = '资讯';
+$_LANG['log_action']['dope_cat'] = '资讯栏目';
+$_LANG['log_action']['media'] = '媒体';
+$_LANG['log_action']['media_cat'] = '媒体栏目';
+$_LANG['log_action']['research'] = '研究所信息';
+$_LANG['log_action']['research_cat'] = '研究所栏目';
+$_LANG['log_action']['knowledge'] = '知识库';
+$_LANG['log_action']['knowledge_cat'] = '知识库栏目';
+$_LANG['log_action']['qa'] = '快问';
+$_LANG['log_action']['area'] = '地区';
+$_LANG['log_action']['type'] = '类型';
+$_LANG['log_action']['origin_cat'] = '钢厂';
+$_LANG['log_action']['origin_quotation'] = '钢厂报价';
+$_LANG['log_action']['quotation'] = '报价数据';
+$_LANG['log_action']['xh_quotation'] = '午间现货报价信息';
+$_LANG['log_action']['am_quotation'] = '早间现货报价信息';
+$_LANG['log_action']['quotation_cat']= '期货栏目';
+$_LANG['log_action']['quotation_futures']= '期货报价';
+$_LANG['log_action']['quotation_inter']= '国际报价';
+$_LANG['log_action']['quotation_stock']= '库存量';
+$_LANG['log_action']['quotation_metal']= '贵金属报价';
+$_LANG['log_action']['quotation_exchange']= '外汇';
+$_LANG['log_action']['swap'] = '交易中心数据';
+$_LANG['log_action']['swap_type'] = '交易中心类型';
+$_LANG['log_action']['swap_scitk'] = '交易置顶';
+$_LANG['log_action']['swap_top'] = '交易推荐';
+$_LANG['log_action']['swap_stype'] = '交易分类';
+//$_LANG['log_action']['swap_area'] = '交易地区';
+$_LANG['log_action']['swap_park'] = '产业园';
+$_LANG['log_action']['soft'] = '软件';
+$_LANG['log_action']['member'] = '会员';
+$_LANG['log_action']['member_types'] = '会员类型';
+$_LANG['log_action']['member_rank'] = '会员等级';
+$_LANG['log_action']['sms_manage']  = '短信';
+$_LANG['log_action']['sms_user']  = '短信用户';
+$_LANG['log_action']['sms_futures'] = '短信期货栏目';
+$_LANG['log_action']['sms_comment'] = '短信评论栏目';
+$_LANG['log_action']['magazine_user'] = '杂志';
+$_LANG['log_action']['information'] = '信息订阅';
+$_LANG['log_action']['contribute'] = '投稿信息';
+$_LANG['log_action']['quotation_from'] = '报价资源';
+$_LANG['log_action']['experts'] = '专家团队';
+$_LANG['log_action']['experts_view'] = '专家观点';
+$_LANG['log_action']['business_friends'] = '广商缘';
+?>
